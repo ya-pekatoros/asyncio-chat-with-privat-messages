@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Yeah"
+version = "0.0.1"
+description = "Hay"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.23.3"
+asyncpg = "^0.27.0"
+aiofiles = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
